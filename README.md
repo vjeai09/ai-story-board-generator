@@ -1,4 +1,4 @@
-Setup Instructions
+**Setup Instructions
 1. Create and activate Python virtual environment
 
 python3 -m venv venv
