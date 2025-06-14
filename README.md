@@ -12,4 +12,5 @@ pip install -r requirements.txt
 4. Install frontend dependencies and run development server
 
 npm install
+
 npm run dev
