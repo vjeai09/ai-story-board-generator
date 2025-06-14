@@ -1,7 +1,7 @@
 import requests
 
 def main():
-    token = "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"
+    token = "<token from hugging face>"
 
     API_URL = "https://api-inference.huggingface.co/models/gpt2"
     headers = {
