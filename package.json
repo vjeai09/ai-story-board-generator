@@ -1,0 +1,13 @@
+{
+  "name": "ai-storyboard-generator",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "frontend": "cd frontend && npm start",
+    "backend": "cd backend && uvicorn main:app --reload --port 8000",
+    "dev": "concurrently \"npm run frontend\" \"npm run backend\""
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
