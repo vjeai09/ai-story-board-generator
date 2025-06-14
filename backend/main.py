@@ -33,12 +33,12 @@ class GenerationRequest(BaseModel):
     prompt: str
     max_length: int = 50
 
-prompt_template = {
-    "role": "You are a creative sci-fi storyteller.",
-    "task": "Write a short comic scene based on the conflict described.",
-    "setting": "The hero is standing alone in outer space.",
-    "goal": "Describe what happens next."
-}
+# prompt_template = {
+#     "role": "You are a creative sci-fi storyteller.",
+#     "task": "Write a short comic scene based on the conflict described.",
+#     "setting": "The hero is standing alone in outer space.",
+#     "goal": "Describe what happens next."
+# }
 
 @app.post("/generate")
 async def generate_text(req: GenerationRequest):
